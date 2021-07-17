@@ -4,14 +4,15 @@ import book from './book.jpg'
 export const products = [
     {
         id: 1,
-        title: "Smartphone",
+      title: "Smartphone",
         description:
             `This smartphone is not just a sight to behold but also comes equipped with innovative features
          that will keep you productive and entertained. Its Helio G85 Gaming Processor ensures that you stay
           on top of the leaderboard while gaming. Its 16.5 cm (6.5) Mini-drop Fullscreen ensures an immersive
            experience while gaming, streaming content, and more. `,
         price: 20000,
-        image: smartphone,
+        image: smartphone, 
+        
     },
     {
         id: 2,

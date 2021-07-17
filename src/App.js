@@ -12,8 +12,7 @@ function App() {
   return (
     // 4
     <Provider store={EcommerceStore}>
-   
-      <div className="App">
+    <div className="App">
         {/* <Ball></Ball>
         <Bat></Bat> */}
       

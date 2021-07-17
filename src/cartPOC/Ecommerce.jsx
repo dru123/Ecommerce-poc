@@ -11,15 +11,12 @@ function Ecommerce() {
         <Router>
             <NavBar/>
             <Switch>
+            <Route path="/cart" component={CartPage}></Route>
                 <Route path="/product" component={ProductPage}></Route>
-                <Route path="/card" component={CartPage}>  </Route>
-                <Route path="/" component={HomePage}></Route>
+                 <Route path="/" component={HomePage}></Route>
                 <Redirect to='/'></Redirect>
             </Switch>
-   <div>
-
-            
-</div>
+  
         </Router>
      
     )
