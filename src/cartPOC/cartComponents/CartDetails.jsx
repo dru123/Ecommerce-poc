@@ -5,11 +5,7 @@ import { connect } from 'react-redux';
 
 
 function CartDetails(props) {
-    // let{cart}=props
-    // console.log("8",cart);
-    
-    // console.log("29",cart);
-    
+    console.log("helo i m in card details");
     const[currCode,setCode]=useState("");
     const[disabled,setDisbale]=useState(true);
     let allCoupons=props.coupons;
@@ -37,22 +33,17 @@ function CartDetails(props) {
           boxShadow: "none" 
             
         },
-
-        cardWidth:{
-               maxWidth:"20vw",
-            textAlign:"center",
-            marginLeft:"75vw",
-           marginTop:"-153vh",
-           position:"absolute",
-           width:"33vw"
-         
-        //    marginBottom:"-80vh"
-        },
+         cardWidth:{
+            maxWidth:"20vw",
+           textAlign:"center",
+            marginLeft:"5rem",
+            // marginTop:"-153vh",
+            // position:"absolute",
+            width:"33vw"
+                 },
         width:
         {
                 maxWidth:"67vw",
-               
-               
         }
       });
       const classes = useStyles();
