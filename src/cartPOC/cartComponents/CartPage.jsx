@@ -63,7 +63,7 @@ function CartPage(props) {
                 {
                     cart.map((products)=>{
                          return(
-                             <CartQuantity obj={products} setCart={props.setCart} setDelete={props.setDelete}  cart={cart} ></CartQuantity>
+                             <CartQuantity      key={products.id} obj={products} setCart={props.setCart} setDelete={props.setDelete}  cart={cart} ></CartQuantity>
                          )
                         
                 })
